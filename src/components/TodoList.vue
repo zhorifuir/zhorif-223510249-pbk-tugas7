@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1 class="title">Cucian Motor</h1>
+    <h1 class="title">List Kegiatan</h1>
     <input v-model="newTask" class="input" placeholder="Tambahkan antrian" @keyup.enter="addTodo" />
     <button @click="addTodo" class="button">Masukkan</button>
     <ul class="todo-list">
